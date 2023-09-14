@@ -1,39 +1,27 @@
-import Button from "./components/Button";
-import { GoBell, GoCloud, GoDatabase } from 'react-icons/go';
+import Accordion from "./components/Accordion";
 
 function App() {
-    return (
-        <div>
-            <div>
-                <Button primary rounded outline className="mb-5">
-                    <GoBell />
-                    Button 1
-                </Button>
-            </div>
-            <div>
-                <Button danger outline>
-                    <GoCloud />
-                    Button 2
-                </Button>
-            </div>
-            <div>
-                <Button warning>
-                    <GoDatabase />
-                    Button 3
-                </Button>
-            </div>
-            <div>
-                <Button success outline>
-                    Button 4
-                </Button>
-            </div>
-            <div>
-                <Button secondary rounded>
-                    Button 5
-                </Button>
-            </div>
-        </div>
-    )
+    const items = [
+        {
+            'id': 'afe',
+            label: 'Label 1',
+            content: 'This is the content to be shown when the accordion is open!'
+        },
+        {
+            'id': 'srb',
+            label: 'Label 2',
+            content: 'This is the content to be shown when the accordion is open!'
+        },
+        {
+            'id': 'rsd',
+            label: 'Label 3',
+            content: 'This is the content to be shown when the accordion is open!'
+        },
+    ];
+
+   return (
+    <Accordion items={items} />
+   )
 }
 
 export default App;
