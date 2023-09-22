@@ -9,6 +9,43 @@
       "id": 2
     }
   ],
-  "albums": [],
-  "photos": []
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking Trip",
+      "userId": 1
+    },
+    {
+      "userId": 1,
+      "title": "Recycled Frozen Shoes",
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "title": "Tasty Bronze Chicken",
+      "id": 12
+    },
+    {
+      "userId": 2,
+      "title": "Unbranded Cotton Ball",
+      "id": 15
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=6312947475283968",
+      "id": 2
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=3552624341155840",
+      "id": 3
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1647568398319616",
+      "id": 4
+    }
+  ]
 }
